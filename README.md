@@ -2,7 +2,7 @@
 Predicting whether the Falcon 9 first stage lands successfully, using public launch data.
 
 **Presentation:** [Final report slides (PDF)](presentation/spacex_falcon9_capstone_presentation.pdf)
-**Course:** [IBM Data Science Professional Certificate (Coursera)](https://www.coursera.org/professional-certificates/ibm-data-science) · [My certificate](https://coursera.org/share/eb3d08d8fb96e394144651a5769aeb20) (completed Nov 2026)
+**Course:** [IBM Data Science Professional Certificate (Coursera)](https://www.coursera.org/professional-certificates/ibm-data-science) · [My certificate](https://coursera.org/verify/professional-cert/CH0OP3JMUKHM) (completed Nov 2026)
 
 ## Question
 SpaceX advertises Falcon 9 launches at about $62 million, while other providers charge $165 million or more. Much of the saving comes from landing and reusing the first stage.
@@ -61,7 +61,7 @@ Python, pandas, NumPy, requests, BeautifulSoup, SQL (SQLite), Matplotlib, seabor
 公開されている打ち上げデータから、Falcon 9 の第1段が着陸に成功するかを予測するプロジェクトです。
 
 **発表スライド：** [最終レポートのスライド（日本語版・PDF）](presentation/spacex_falcon9_capstone_presentation_ja.pdf)
-**講座：** [IBM Data Science Professional Certificate（Coursera）](https://www.coursera.org/professional-certificates/ibm-data-science)・[認定証](https://coursera.org/share/eb3d08d8fb96e394144651a5769aeb20)（2026年11月修了）
+**講座：** [IBM Data Science Professional Certificate（Coursera）](https://www.coursera.org/professional-certificates/ibm-data-science)・[認定証](https://coursera.org/verify/professional-cert/CH0OP3JMUKHM)（2026年11月修了）
 
 ### 問い
 SpaceX は Falcon 9 の打ち上げを約6,200万ドルとしていますが、ほかの会社は1億6,500万ドル以上かかります。安さの多くは、第1段を着陸させて再利用することによるものです。
