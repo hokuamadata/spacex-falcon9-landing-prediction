@@ -2,6 +2,7 @@
 Predicting whether the Falcon 9 first stage lands successfully, using public launch data.
 
 **Presentation:** [Final report slides (PDF)](presentation/spacex_falcon9_capstone_presentation.pdf)
+**Course:** [IBM Data Science Professional Certificate (Coursera)](https://www.coursera.org/professional-certificates/ibm-data-science) · [My certificate](https://coursera.org/share/eb3d08d8fb96e394144651a5769aeb20) (completed Nov 2026)
 
 ## Question
 SpaceX advertises Falcon 9 launches at about $62 million, while other providers charge $165 million or more. Much of the saving comes from landing and reusing the first stage.
@@ -15,7 +16,7 @@ Playing the role of a data scientist at a competing launch company, I asked: **c
 **Recommendation:** when bidding, first check whether SpaceX plans to recover the booster, then use the model as a guide.
 
 ## What I added beyond the course labs
-This project is based on the capstone labs of the IBM Data Science Professional Certificate (Coursera). On top of the required tasks, I checked the following myself:
+This project is based on the capstone labs of the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) (Coursera). On top of the required tasks, I checked the following myself:
 
 - **Mixed label:** 21 of the 30 flights labeled as failures (Class = 0) made no landing attempt. GTO looks weak at 52% overall, but reaches 93% (14 of 15) when a landing was attempted. The 2018 dip has the same cause (61% overall, 92% when attempted).
 - **Same-period comparisons:** compared launch sites, heavy payloads and VLEO only with flights from the same period, to separate their effect from timing.
@@ -60,6 +61,7 @@ Python, pandas, NumPy, requests, BeautifulSoup, SQL (SQLite), Matplotlib, seabor
 公開されている打ち上げデータから、Falcon 9 の第1段が着陸に成功するかを予測するプロジェクトです。
 
 **発表スライド：** [最終レポートのスライド（日本語版・PDF）](presentation/spacex_falcon9_capstone_presentation_ja.pdf)
+**講座：** [IBM Data Science Professional Certificate（Coursera）](https://www.coursera.org/professional-certificates/ibm-data-science)・[認定証](https://coursera.org/share/eb3d08d8fb96e394144651a5769aeb20)（2026年11月修了）
 
 ### 問い
 SpaceX は Falcon 9 の打ち上げを約6,200万ドルとしていますが、ほかの会社は1億6,500万ドル以上かかります。安さの多くは、第1段を着陸させて再利用することによるものです。
@@ -73,7 +75,7 @@ SpaceX は Falcon 9 の打ち上げを約6,200万ドルとしていますが、�
 **提言：** 入札では、まず SpaceX がブースターを回収する予定かを確かめ、そのうえでモデルを目安に使う。
 
 ### 講座の課題に加えて、自分で確かめたこと
-このプロジェクトは、IBM Data Science Professional Certificate（Coursera）のキャップストーンのラボをもとにしています。必須の課題に加えて、次のことを自分で確かめました。
+このプロジェクトは、[IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)（Coursera）のキャップストーンのラボをもとにしています。必須の課題に加えて、次のことを自分で確かめました。
 
 - **ラベルの混在：** 失敗（Class = 0）とされた30便のうち21便は、着陸を試みていませんでした。GTO は全体では52%ですが、着陸を試みた便だけなら93%（15便中14便）です。2018年の落ち込みも同じ理由でした（全体61%、試みた便だけなら92%）。
 - **同じ時期での比較：** 発射場・重いペイロード・VLEO を、同じ時期の便とだけ比べ、時期の影響と切り分けました。
@@ -88,4 +90,4 @@ SpaceX は Falcon 9 の打ち上げを約6,200万ドルとしていますが、�
 - **出所による違い：** データセットごとに行数と期間が違い（上の表）、データは2020年まで。
 - **次の一手：** まず「着陸を試みるか」を予測し、次に「成功するか」を予測する2段階のモデル。
 
-ノートブックの一覧・データの出所・使った技術は、英語の部分の表を見てください。
+ノートブックの一覧・データの出所・使った技術は、英語の部分の表をご確認ください。
